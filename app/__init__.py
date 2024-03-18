@@ -4,8 +4,9 @@ from flask import Flask
 def create_app():
     app = Flask(__name__)
 
-    @app.route('/')
+    @app.route('/satya')
     def hello_world():
-        return 'Hello, World!'
+        print(f"Hello, Satya")
+        return 'Hello, Satya!'
 
     return app
