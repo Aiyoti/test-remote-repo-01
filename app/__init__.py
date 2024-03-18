@@ -8,6 +8,5 @@ def create_app():
     @app.route('/Rian')
     def hello_world():
         print('rian testing')
-        return 'Hello, Rian Tito!'
 
     return app
