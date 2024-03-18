@@ -10,3 +10,4 @@ def create_app():
         return 'Hello, Satya!'
 
     return app
+
