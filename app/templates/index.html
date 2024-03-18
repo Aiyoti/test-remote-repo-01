@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>hahaha aku yang berkuasa</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 10 - WBAD</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"></head>
+<body>
+    <div id="panel">Panel</div>
+    <button id="btn">Button</button>
+
+    <!-- Image Slider -->
+    <div class="slider-carousel">
+        <!-- arrow kiri -->
+        <!-- div.carousel-arrow#left-arrow -->
+        <div class="carousel-arrow" id="left-arrow">
+            <img src="left-arrow.png" alt="">
+        </div>
+
+        <!-- isi slider -->
+        <div class="carousel">
+            <div class="carousel-image-container">
+                <img src="cover-1.jpg" alt="" class="carousel-image">
+                <img src="cover-2.jpg" alt="" class="carousel-image">
+                <img src="cover-3.jpg" alt="" class="carousel-image">
+                <img src="cover-4.jpg" alt="" class="carousel-image">
+            </div>
+        </div>
+
+        <!-- arrow kanan -->
+        <div class="carousel-arrow" id="right-arrow">
+            <img src="right-arrow.png" alt="">
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/jquery-3.7.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
 </html>

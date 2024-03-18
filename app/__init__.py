@@ -1,11 +1,17 @@
-from flask import Flask
+from flask import Flask, render_template
 
 
 def create_app():
     app = Flask(__name__)
 
-    @app.route('/Rian')
+    @app.route('/satya')
     def hello_world():
-        print('rian testing')
+        print(f"Hello, Satya!")
+        return 'Hello, Satya!'
 
+    @app.route("/")
+    def index():
+        return render_template("index.html")
     return app
+
+
