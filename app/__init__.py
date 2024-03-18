@@ -8,4 +8,5 @@ def create_app():
     def hello_world():
         print(f"Hello, Satya!")
         return 'Hello, Satya!'
+
     return app
