@@ -8,5 +8,9 @@ def create_app():
     def hello_world():
         print("eko testing")
         return 'Hello, World!'
+    
+    @app.route('/yasser')
+    def hello_heaven():
+        return 'Hello, Heaven!'
 
     return app
