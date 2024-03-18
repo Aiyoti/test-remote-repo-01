@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/satya')
     def hello_world():
-        print(f"Hello, Satya")
+        print(f"Hello, Satya!")
         return 'Hello, Satya!'
 
     return app
