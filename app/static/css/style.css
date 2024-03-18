@@ -1,0 +1,50 @@
+#panel {
+    background-color: darkblue;
+    color: white;
+    width: fit-content;
+    padding: 30px;
+    margin: 15px 30px;
+    border-radius: 5px;
+}
+
+#btn{
+    background-color: green;
+    color: white;
+    width: fit-content;
+    padding: 20px 30px;
+    margin: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.slider-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.carousel-arrow{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-arrow:hover{
+    cursor: pointer;
+}
+
+.carousel{
+    margin: 0px 15px;
+    overflow: hidden;
+}
+
+.carousel-image-container{
+    height: 500px;
+    position: relative;
+}
+
+.carousel-image{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
