@@ -7,5 +7,9 @@ def create_app():
     @app.route('/')
     def hello_world():
         return 'Hello, World!'
+    
+    @app.route('/yasser')
+    def hello_heaven():
+        return 'Hello, Heaven!'
 
     return app
